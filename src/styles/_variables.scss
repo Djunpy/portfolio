@@ -1,0 +1,40 @@
+$main-color: rgb(4, 5, 54);
+$text-color: rgb(12, 0, 78);
+$s-text-color: hsla(330, 75%, 40%, 0.84);
+$second-text: hsla(183, 8%, 54%, 0.84);
+$n-text-color: hsla(0, 18%, 93%, 0.84);
+$close-color: hsla(0, 76%, 47%, 0.84);
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+
+$blackpure: #000;
+$black: #171718;
+$black-border: #26292d;
+$white: #fff;
+$purple: #5c62ec;
+  
+  	/* Nav */
+$nav-bg: $black;
+$nav-border: $black-border;
+$nav-text: $white;
+  
+  	/* Header */
+$header-bg: $black;
+$header-text: $white;
+  
+  	/* Footer */
+$footer-bg: $black;
+$footer-text: $white;
+  
+  	/* Light mode */
+$page-bg: $white;
+$text-color: $black;
+$accent: $purple;
+$title-1: $accent;
+  
+      	/* default transition */
+
+$t-transition: color .4s;
+
+$project-card-bg: $white;
+$project-card-text: $black;
+$box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);

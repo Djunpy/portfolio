@@ -1,0 +1,50 @@
+@import './variables';
+@import './normalize';
+
+@import './components/all';
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
+
+html,
+body{
+  min-height: 100vh;
+  font-family: 'DM Sans',
+    sans-serif;
+  letter-spacing: -0.5px;
+  background-color: $page-bg;
+  color: $text-color;
+}
+
+#root{
+  min-height: 100vw;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1380px;
+}
+
+.none {
+  display: none !important;
+}
+
+.section{
+  padding: 70px 0;
+}
+
+
+@keyframes pulse {
+  0% {
+    border-color: $s-text-color;
+  }
+
+  50% {
+    border-color: blue;
+  }
+
+  100% {
+    border-color: red;
+  }
+}
